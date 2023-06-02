@@ -11,5 +11,11 @@ The aim of this project is to uncover insights into how consumers are using Bell
 ## Methodology
 The project follows the Ask, Prepare, Process, Analyze, Share, and Act (APPASA) framework for data analysis.
 
+## Data Transformation Process
+This section outlines the process of transforming and organizing the data for analysis. The cleaned and prepared data can be found in the `data_april12_to_may12_2016` folder. This dataset will be used for subsequent analysis.
+
+### Steps:
+1. **Conversion to Snake_case**: To maintain consistency and compatibility, all file names and headers have been converted to snake_case. This conversion was achieved using the `rename_file_name.py` script found in the `scripts` folder. Then, the `rename_header.py` script was used for further renaming within the files.
+
 ## Source
 [Kaggle FitBit Fitness Tracker](https://www.kaggle.com/datasets/arashnic/fitbit)
