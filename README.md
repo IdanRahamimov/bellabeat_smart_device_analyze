@@ -12,4 +12,4 @@ The aim of this project is to uncover insights into how consumers are using Bell
 The project follows the Ask, Prepare, Process, Analyze, Share, and Act (APPASA) framework for data analysis.
 
 ## Source
-[kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
+[Kaggle FitBit Fitness Tracker](https://www.kaggle.com/datasets/arashnic/fitbit)
