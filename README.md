@@ -1,5 +1,4 @@
 # Smart Device Usage Study
-## Description
 This repository contains a case study project conducted for educational purposes, Please note that this project is independent and I am not affiliated with Bellabeat.
 
 This repository contains a data analysis project centered on Bellabeat.
