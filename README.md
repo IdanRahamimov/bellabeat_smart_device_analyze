@@ -15,7 +15,7 @@ The project follows the Ask, Prepare, Process, Analyze, Share, and Act (APPASA) 
 This section outlines the process of transforming and organizing the data for analysis. The cleaned and prepared data can be found in the `data_april12_to_may12_2016` folder. This dataset will be used for subsequent analysis.
 
   ### Steps:
-  1. **Conversion to Snake_case**: To maintain consistency and compatibility, all file names and headers have been converted to snake_case. This conversion was achieved using the `rename_file_name.py` script found   in the `scripts` folder. Then, the `rename_header.py` script was used for further renaming within the files.
+  1. **Conversion to Snake_case**: To maintain consistency and compatibility, all file names and headers have been converted to snake_case. This conversion was achieved using the `rename_file_name.py` script found   in the `scripts` folder. Then, the `rename_header.py` script was used to convert the headers within the data files.
 
 ## Source
 [Kaggle FitBit Fitness Tracker](https://www.kaggle.com/datasets/arashnic/fitbit)
