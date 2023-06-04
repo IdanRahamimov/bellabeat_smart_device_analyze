@@ -12,13 +12,17 @@ The aim of this project is to uncover insights into how consumers are using Bell
 The project follows the Ask, Prepare, Process, Analyze, Share, and Act (APPASA) framework for data analysis.
 
 ## Data Transformation Process
-This section outlines the process of transforming and organizing the data for analysis. The cleaned and prepared data can be found in the `data_april12_to_may12_2016` folder. This dataset will be used for subsequent analysis.
+This section outlines the process of transforming and organizing the data for analysis. The cleaned and prepared data can be found in the `data_april12_to_may12_2016` folder which will be the basis for the ensuing analysis.
 
   ### Steps:
-  1. **Conversion to Snake_case**: To maintain consistency and compatibility, all file names and headers have been converted to snake_case. This conversion was achieved using the `rename_file_name.py` script found   in the `scripts` folder. Then, the `rename_header.py` script was used to convert the headers within the data files.
-  2. **Delete duplicate data**: `daily_activity` already hold all the daily information so I delete `daily_calories`, `daily_intensities` and `daily_steps`
-  3. **Merge Data**: the hourly and minute data are separated so I manually combine the hourly data to `hourly_activiy`, the data in minute was too large to merge manually so I made `merge_minute.py` script to merge them all into one file calld `minute_activity`
-  4. **split date and time**: in some of the files the date column have both date and time so I made a script `split_datetime.py` to split them into two columns date and time the script also standardize the name of the columns
+  1. **Conversion to Snake_case**: To maintain consistency and compatibility, all filenames and headers were converted to snake_case. This was done using the `rename_file_name.py` script located in the `scripts` folder. Then, the `rename_header.py` script was employed for renaming the headers within the data files.
+
+  2. **Removal of Duplicate Data**: The `daily_activity` dataset contains comprehensive daily data; hence, the `daily_calories`, `daily_intensities`, and `daily_steps` datasets, which held redundant information, were removed.
+
+  3. **Data Merging**: The data divided into hourly and minute intervals were consolidated for ease of analysis. The hourly data was manually combined into a `hourly_activity` dataset.
+  The minute data, due to its voluminous size, required the `merge_minute.py` script for consolidation into a single `minute_activity` file. Prior to running the script, the `minute_sleep` dataset was renamed to `time_sleep` to prevent it from being merged.
+  
+  4. **Date and Time Separation**: Some of the datasets included date and time in the same column. The `split_datetime.py` script was created to separate these into distinct 'date' and 'time' columns. This script also standardizes the column names across all datasets.
 
 ## Source
 [Kaggle FitBit Fitness Tracker](https://www.kaggle.com/datasets/arashnic/fitbit)
