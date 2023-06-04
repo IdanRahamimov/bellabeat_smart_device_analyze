@@ -16,7 +16,7 @@ This section outlines the process of transforming and organizing the data for an
 
   ### Steps:
   1. **Conversion to Snake_case**: To maintain consistency and compatibility, all file names and headers have been converted to snake_case. This conversion was achieved using the `rename_file_name.py` script found   in the `scripts` folder. Then, the `rename_header.py` script was used to convert the headers within the data files.
-  2. **Delete duplicate data**: `daily_activity` already hold all the daily information so I delete `daily_calories`, `daily_intensities` and `daily_steps`.
-  3. **Merge Data**: the hourly and minute data are separated so I maualy combine the hourly data to `hourly_activiy`,
+  2. **Delete duplicate data**: `daily_activity` already hold all the daily information so I delete `daily_calories`, `daily_intensities` and `daily_steps`
+  3. **Merge Data**: the hourly and minute data are separated so I manually combine the hourly data to `hourly_activiy`, the data in minute was too large to merge manually so I made `merge_minute.py` script to merge them all into one file calld `minute_activity`
 ## Source
 [Kaggle FitBit Fitness Tracker](https://www.kaggle.com/datasets/arashnic/fitbit)
