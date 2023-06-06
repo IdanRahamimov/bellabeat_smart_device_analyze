@@ -24,5 +24,24 @@ This section outlines the process of transforming and organizing the data for an
   
   4. **Date and Time Separation**: Some of the datasets included date and time in the same column. The `split_datetime.py` script was created to separate these into distinct 'date' and 'time' columns. This script also standardizes the column names across all datasets.
 
+## Data Analysis Process
+
+After transforming and cleaning the data, I started the analysis phase. Here are the steps I followed:
+
+  1. **Excel Integration**: I imported my dataset into an Excel workbook using Power Query.
+
+  2. **Correlation Analysis**: I used Excel's `CORREL` function to calculate the correlation between different metrics. This helped to identify which variables had a strong relationship.
+
+  3. **Derived Fields**: Using averages, sums, and arithmetic, I derived new metrics from the original data.
+
+  4. **Data Aggregation**: I used pivot tables and the `VLOOKUP` function to aggregate data and create new derived metrics. This was necessary for analysing data from different sources and for summarizing the data in meaningful ways.
+
+  5. **Data Visualization**: I created some charts and tables to visualize the data and the relationships between different metrics.
+
+### Key Findings
+- High-intensity, short-duration exercises are more effective in burning calories compared to lower-intensity exercises performed over a longer duration.
+
+- Running burns approximately 118 calories per mile. However, daily activities alone can burn around 1650 calories, indicating that everyday movement is significant for calorie loss, sometimes matching the calorie loss from dedicated running sessions.
+
 ## Source
 [Kaggle FitBit Fitness Tracker](https://www.kaggle.com/datasets/arashnic/fitbit)
