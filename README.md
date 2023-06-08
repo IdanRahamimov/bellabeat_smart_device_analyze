@@ -43,5 +43,8 @@ After transforming and cleaning the data, I started the analysis phase. Here are
 
 - Running burns approximately 118 calories per mile. However, daily activities alone can burn around 1650 calories, indicating that everyday movement is significant for calorie loss, sometimes matching the calorie loss from dedicated running sessions.
 
+### Conclusions and Recommendations
+Our analysis highlights that the human body consistently burns calories, even in the absence of dedicated exercise. However, engaging in physical exercise amplifies this calorie burn, with the rate and efficiency increasing with exercise intensity. Therefore, we recommend that Bellabeat users incorporate high-intensity exercises into their routine for optimal calorie burn. Bellabeat could also consider incorporating features into their smart devices that provide insights on how to increase this intensity for a more efficient calorie burn.
+
 ## Source
 [Kaggle FitBit Fitness Tracker](https://www.kaggle.com/datasets/arashnic/fitbit)
