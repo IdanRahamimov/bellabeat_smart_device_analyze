@@ -38,6 +38,9 @@ After transforming and cleaning the data, I started the analysis phase. Here are
 
   5. **Data Visualization**: I created some charts and tables to visualize the data and the relationships between different metrics.
 
+## Visuals 
+![results](https://github.com/IdanRahamimov/bellabeat_smart_device_analyze/blob/main/screenshots/results.png)
+
 ### Key Findings
 - High-intensity, short-duration exercises are more effective in burning calories compared to lower-intensity exercises performed over a longer duration.
 
